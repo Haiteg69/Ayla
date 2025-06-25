@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Головна сторінка</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .button-container {
+      background: #ffffff;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 20px 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 15px;
+    }
+    .btn {
+      flex: 1;
+      padding: 12px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .btn1 { background-color: #e74c3c; }  /* червоний */
+    .btn2 { background-color: #3498db; }  /* синій */
+    .btn3 { background-color: #27ae60; }  /* зелений */
+    .btn4 { background-color: #f39c12; }  /* помаранчевий */
+    .btn5 { background-color: #8e44ad; }  /* фіолетовий */
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <a href="page1.html" class="btn btn1">1</a>
+    <a href="page2.html" class="btn btn2">2</a>
+    <a href="page3.html" class="btn btn3">3</a>
+    <a href="page4.html" class="btn btn4">4</a>
+    <a href="page5.html" class="btn btn5">5</a>
+  </div>
+</body>
+</html>
